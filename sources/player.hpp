@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+using namespace std;
 
 namespace ariel{
 
@@ -12,9 +13,14 @@ namespace ariel{
         string name;
 
         public:
-        Player(string name);
+        Player(string name); //Constructor
+        // ~Player(); //Destructor
         int stacksize();
         int cardesTaken();
+
+        //Getters & Setters
+        void setName(string);
+        string getName();
 
     };
 }

@@ -10,6 +10,13 @@ namespace ariel{
 
     class Card{
 
+        private:
+        int num;
+        std::string suit;
+
+        public:
+            Card(int num, string suit);
+
     };
     
 }
