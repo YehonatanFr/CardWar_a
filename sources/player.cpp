@@ -4,19 +4,22 @@ using namespace std;
 
 
 Player::Player(string name){
-
+    this->name = name;
+    this->cardsTaken = 0;
+    this->stackSize = 26;
 }
 
 int Player::cardesTaken() {
 
-    return 0;
+    return this->cardsTaken;
 }
 int Player::stacksize() {
     
-    return 0;
+    return this->stackSize;
 }
 
-void Player::setName(string){
+void Player::setName(string newName){
+    this->name = newName;
     
 }
         

@@ -15,8 +15,8 @@ namespace ariel{
         std::string suit;
 
         public:
-            Card(int num, string suit);
-
+        Card(int num, string suit);
+        int compareTo(Card other);
     };
     
 }

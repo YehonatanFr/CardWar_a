@@ -11,6 +11,8 @@ namespace ariel{
 
         private:
         string name;
+        int stackSize;
+        int cardsTaken;
 
         public:
         Player(string name); //Constructor
@@ -21,6 +23,7 @@ namespace ariel{
         //Getters & Setters
         void setName(string);
         string getName();
+
 
     };
 }
